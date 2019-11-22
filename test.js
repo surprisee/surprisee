@@ -297,29 +297,19 @@ window.requestAnimFrame = function () {
   
     var w, h;
     if (window.innerWidth >= 1000) {
-      w = 295;h = 185;
+      w = 495;h = 285;
     } else
     {
-      w = 255;h = 155;
+      w = 455;h = 255;
     }
   
     var ifrm = document.createElement("iframe");
-    ifrm.setAttribute("src", "https://www.youtube.com/embed/QaR31V5xBQ8?controls=0&loop=1&autoplay=1");
-    //ifrm.style.width = `${w}px`;
-    //ifrm.style.height = `${h}px`;
+    ifrm.setAttribute("src", "https://s3.amazonaws.com/embed.animoto.com/play.html?w=swf/production/vp1&e=1574452248&f=efSSbhXeP1T2jwfOWIMQiw&d=0&m=p&r=360p+480p+720p&volume=100&start_res=undefined&i=m&asset_domain=s3-p.animoto.com&animoto_domain=animoto.com&options=autostart");
+    ifrm.style.width = `${w}px`;
+    ifrm.style.height = `${h}px`;
     ifrm.style.border = 'none';
     document.querySelector('#video').appendChild(ifrm);
   }
-
-
-
-
-
-
-
-
-
-
 
 
 

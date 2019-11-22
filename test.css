@@ -444,13 +444,15 @@ div#sea {
   }
 
   div#video {
-    right: 290px;
+    right: 190px;
     bottom: 235px;
   }
 
   div#video iframe {
-    width: 295px;
-    height: 185px;
+    width: 495px;
+    height: 285px;
+    border: 5px solid rgb(223, 190, 190);
+    border-radius: 15px;
   }
 
   .moon {
